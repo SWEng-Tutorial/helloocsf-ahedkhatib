@@ -10,7 +10,7 @@ public class SimpleClient extends AbstractClient {
 	private static SimpleClient client = null;
 
 	private SimpleClient(String host, int port) {
-		super(host, port);
+		super("2.tcp.eu.ngrok.io", 12056);
 	}
 
 	@Override
